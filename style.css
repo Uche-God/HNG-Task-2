@@ -112,3 +112,78 @@ input, select, textarea {
   margin-bottom: 10px;
   font-weight: bold;
 }
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 80px 20px 40px;
+  background-color: #e0f7fa;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.buttons .btn {
+  margin: 0 10px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.buttons .btn:hover {
+  transform: translateY(-2px);
+  background-color: #0056b3;
+}
+
+/* Decorative Circles */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.circle1 {
+  width: 150px;
+  height: 150px;
+  background-color: #00bcd4;
+  top: -50px;
+  left: -50px;
+}
+
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  bottom: -30px;
+  right: -30px;
+}
+
+/* Wave SVG */
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  z-index: 1;
+}
