@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket Management</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/ticket-management.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Tickets</h1>
+
+    <form id="ticket-form">
+      <label for="ticket-title">Title</label>
+      <input type="text" id="ticket-title">
+
+      <label for="ticket-status">Status</label>
+      <select id="ticket-status">
+        <option value="">Select status</option>
+        <option value="open">Open</option>
+        <option value="in_progress">In Progress</option>
+        <option value="closed">Closed</option>
+      </select>
+
+      <label for="ticket-desc">Description</label>
+      <textarea id="ticket-desc"></textarea>
+
+      <button type="submit" class="btn">Save Ticket</button>
+    </form>
+
+    <div id="tickets-container"></div>
+
+    <button id="logout" class="btn">Logout</button>
+  </div>
+</body>
+</html>
