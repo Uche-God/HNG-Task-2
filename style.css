@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #e0f7fa;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.card {
+  background-color: #fff8e1;
+  border: 2px solid #ffc107;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.status {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.status.open { background-color: #d4edda; color: green; }
+.status.in_progress { background-color: #fff3cd; color: orange; }
+.status.closed { background-color: #e2e3e5; color: gray; }
+
+.error-msg {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
